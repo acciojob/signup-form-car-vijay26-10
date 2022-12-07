@@ -3,13 +3,53 @@
 <html>
 
 <head>
-	<link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
-	<!-- the entire body must be written by student -->
+    <!-- the entire body must be written by student -->
+    <form method="post">
+        <label for="name">
+            Name: <input type="text" value="Vijay" id="name" required>
+        </label><br><br>
+
+        <label for="email">
+            Email: <input type="email" value="xyz@gmail.com" id="email" required>
+        </label><br><br>
+
+        <label for="portfolio">
+            Portfolio: <input type="url" value="www.grandcoder.in" id="portfolio">
+        </label><br><br>
+
+        <label for="gender">
+            Gender: <input type="radio" name="gender" value="Male" id="gender" required>
+            <input type="radio" name="gender" value="Female" id="gender" required>
+        </label><br><br>
+
+        <label for="cars">
+            Car Brands:
+            <select name="car_brands" id="cars" required>
+                <option value="BMW">BMW</option>
+                <option value="Mustang">Audi</option>
+                <option value="Mercedez">Mercedez</option>
+            </select>
+        </label><br><br>
+
+        <label for="age">
+            Age: <input type="number" value="22" id="age" required>
+        </label><br><br>
+
+        <label for="dob">
+            DOB: <input type="date" value="12/10/2022" id="dob" required>
+        </label><br><br>
+
+        <label for="password">
+            Password: <input type="password" value="vijay@123" id="password" required>
+        </label><br><br>
+        <button type='submit'>Button</button>
+    </form>
     <script type="text/javascript" src="./script.js">
-</script>
+    </script>
 
 </body>
 
